@@ -3,11 +3,11 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.3.0",
-        "name": "com.microchip.mcu8.mplabx.project.pic18f16q20-I3C-multi-sensor-integration-mplab-mcc",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f16q20-i3c-multi-sensor-integration-mplab-mcc",
         "version": "1.0.0",
-        "displayName": "PIC18F16Q20 I3C Multi-Sensor Example",
-        "projectName": "pic18f16q20-I3C-multi-sensor-integration-mplab-mcc",
-        "shortDescription": "This code example demonstrates using the I3C feature of the PIC18F16Q20 and the ADCC to act as an interface between the I3C bus and multiple sensors. Some compatible devices in the family are PIC18F16Q20, PIC18F06Q20",
+        "displayName": "I3C Multi-Sensor Integration using PIC18F16Q20 Microcontroller",
+        "projectName": "pic18f16q20-i3c-multi-sensor-integration-mplab-mcc",
+        "shortDescription": "This code example demonstrates an interface between I3C bus and multiple sensors using the I3C target module and the ADCC of the PIC18F16FQ20. Other compatible PIC18-Q20 family of MCUs are: PIC18F06Q20.",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=6.15.0"
@@ -24,7 +24,7 @@
         },
         "configurator": {
             "name": "MCC",
-            "semverRange": ">=5.5.7"
+            "semverRange": ">=5.3.7"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -40,7 +40,7 @@
         "peripherals": [
 			"ADCC","TMR1"
 			],
-        "keywords": ["Melody","ADC","TMR1"],
+        "keywords": ["Melody","Sensor"],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
